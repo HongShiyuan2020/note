@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务.md",
+                "file": "命令操作/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务"
+              "title": "git"
             }
           }
         ],
@@ -157,10 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学/aa.md"
+                "file": "命令操作/git.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "aa 的大纲"
+              "title": "git 的大纲"
             }
           },
           {
@@ -191,14 +194,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb464dfa2a007a8d",
+  "active": "3fb01087bcb9024c",
   "lastOpenFiles": [
-    "数学/aa.md",
+    "命令操作/curl.md",
+    "命令操作/git.md",
     "任务.md",
+    "数学/aa.md",
     "逻辑回归.md",
     "生词本.md",
     "密码.md",
-    "命令操作/curl.md",
     "命令操作/conda.md",
     "数学/KaTex.md",
     "研究生/竞赛项目.md",
@@ -238,7 +242,6 @@
     "编程语言/Python",
     "编程语言/Rust",
     "编程语言/Js",
-    "研究生/CTC算法.md",
     "未命名.canvas"
   ]
 }
