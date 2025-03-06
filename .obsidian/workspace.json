@@ -214,10 +214,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fb01087bcb9024c",
+  "active": "eb37335a57db3ff6",
   "lastOpenFiles": [
-    "密码.md",
+    "命令操作/attachments/Pasted image 20250306211936.png",
     "命令操作/git.md",
+    "命令操作/attachments",
+    "密码.md",
     "命令操作/curl.md",
     "任务.md",
     "数学/aa.md",
@@ -251,9 +253,7 @@
     "attachments/Pasted image 20240611085132.png",
     "attachments/Pasted image 20240611084652.png",
     "attachments/Pasted image 20240611084218.png",
-    "attachments/Pasted image 20240611083341.png",
     "编程语言/C/001.关键字.md",
-    "编程语言/C/000.Hello World.md",
     "数学",
     "编程语言/PHP",
     "编程语言/C Sharp",
@@ -261,7 +261,6 @@
     "编程语言/Lua",
     "编程语言/Python",
     "编程语言/Rust",
-    "编程语言/Js",
     "未命名.canvas"
   ]
 }

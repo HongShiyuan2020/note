@@ -1,4 +1,15 @@
 
+## 几个区域
+
+![](Pasted%20image%2020250306211936.png "Git 各个区域与操作")
+### 工作区（Workspace）
+
+### 暂存区（Index）
+
+### 仓库区（Repository）
+
+### 远程区（Remote）
+
 
 ## HEAD 指针
 
@@ -47,7 +58,7 @@ git pull <远程主机名> <远程分支名>:<本地分支名>
 - 如果当前分支与远程分支存在追踪关系，`git pull`就可以省略远程分支名。
 ```shell
 git branch --set-upstream master origin/next
-git pull origin
+git pull origin             # 默认将master分支push到远程next分支
 ```
 
 ### git push
@@ -60,10 +71,42 @@ git push <远程仓库> :<远程分支>                     #
 git push --all origin                            # push 所有分支到远程
 ```
 
+## 二. 分支管理
+
+### git branch
 
 ```shell
+# 列举分支
+git branch                  # 列出所有本地分支
+git branch -r               # 列出所有远程分支
+git branch -a               # 列出所有分支
+
+# 添加分支
+git branch <branch-name>    # 新建分支但仍然保持当前分支
+git branch <branch-name> <commit> # 新建分支，且指定所基于的commit
+git branch --track <branch-name> <remote-branch> # 新建分支，追踪远程分支
+
+# 删除分支
+git branch -d <branch-name>
+git branch -dr <remote-host>/<branch> # 删除远程分支
+
+# 其他
+git branch --set-upstream <branch-name> <remote-branch>
 ```
 
+### git checkout
+
+```shell
+# 切换分支
+git checkout <branch-name>
+git checkout -b <branch-name>   # 切换时如果分支不存在会新建分支
+git checkout -                  # 切换到上一个分支
+
+# 撤销
+git checkout <file-name>        # 恢复暂存区的某个文件到工作区
+git checkout <commit-name> <file-name>        # 恢复指定commit的某个文件到工作区
+git checkout .                                # 恢复暂存区的所有文件到工作区
+```
 
 
 
