@@ -1,0 +1,4 @@
+
+总结：
+1. 阅读论文：Learning Transferable Visual Models From Natural Language Supervision，本文探讨了从自然语言监督学习可转移的视觉模型的可能性。通过用400万对图像和文本进行预训练,作者提出了一种称为CLIP的简化对比学习方法,并展示了其在各种数据集上的出色性能。CLIP模型在零样本学习的表现接近甚至超越了全监督的基准模型,并表现出对各种自然分布变化的鲁棒性。![[Pasted image 20240812210113.png]]CLIP由一个基于Transformer Encoder的文本编码器和基于ResNet与Vit的图像编码器组成，预训练时使用图像编码器和文本编码器将一组图像文本对编码为特征向量，将两组向量两两组合计算余弦相似度得到一个矩阵，矩阵的标签对应为一个同大小的单位矩阵，就算两矩阵之间的MSE作为损失，训练模型。此外该模型还提出Zero-Shot。Zero-Shot学习是一种机器学习方法，允许模型在没有见过特定任务或类别的训练数据的情况下进行预测。换句话说，模型能够在未训练的情况下处理新类别或任务，通常依赖于自然语言描述或已知的类别关系。
+2. 总结：该论文探讨了将标准的Transformer模型直接应用于图像识别任务。与传统的卷积神经网络(CNN)相比，Vision Transformer (ViT)在大规模数据预训练后可以达到或超越最先进的性能，同时所需的计算资源也大幅减少。具体来说，ViT将输入图片切分多个大小相同的图像Patch，经过险些映射得到D维的Embedding+Position+T0（类别Token）作为传统Transformer Encoder（此处的eENcoder有一个小小的不同，Layer Norm层放在Self Atten和Feed Forward之前）的输入，编码后将z0作为一个MLP的输出经过Softmax得到类别概率。
