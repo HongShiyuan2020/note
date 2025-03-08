@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8aa2630ab1e89e6f",
+        "id": "1e362ed6c252b719",
         "type": "tabs",
         "children": [
           {
-            "id": "3793c8c41c183b8c",
+            "id": "c4cfb43549a504a9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "命令操作/Git.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Git"
             }
           }
         ]
@@ -179,12 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3793c8c41c183b8c",
+  "active": "c4cfb43549a504a9",
   "lastOpenFiles": [
-    "命令操作/git.md",
+    "命令操作/curl.md",
+    "命令操作/Git.md",
     "命令操作/attachments/Pasted image 20250306211936.png",
     "命令操作/conda.md",
-    "命令操作/curl.md",
     "人工智能/机器学习/逻辑回归.md",
     "数学物理/KaTex.md",
     "标记语言/KaTex.md",
