@@ -4,12 +4,13 @@
 ![](Pasted%20image%2020250306211936.png "Git 各个区域与操作")
 ### 工作区（Workspace）
 
+- 使用文本编辑器的交互区域，即当前可编辑的文本，代码等数据。
 ### 暂存区（Index）
-
+- 使用`git add`指令后会将工作区的文件保存到该区域。
 ### 仓库区（Repository）
-
+- 保存提交的更新，使用`git commit`后将暂存区的数据保存在该区。
 ### 远程区（Remote）
-
+- 远程仓库，如github中的仓库，使用远程指令与其进行交互。
 
 ## HEAD 指针
 
@@ -104,12 +105,47 @@ git checkout -                  # 切换到上一个分支
 
 # 撤销
 git checkout <file-name>        # 恢复暂存区的某个文件到工作区
-git checkout <commit-name> <file-name>        # 恢复指定commit的某个文件到工作区
+git checkout <commit-name> <file-name>        # 恢复指定commit的某个文件到工作区和暂存区
 git checkout .                                # 恢复暂存区的所有文件到工作区
 ```
+### git rebase
 
+#### 变基执行过程
 
+- 首先，`git` 会把 `feature1` 分支里面的每个 `commit` 取消掉；  
+- 其次，把上面的操作临时保存成 `patch` 文件，存在 `.git/rebase` 目录下；  
+- 然后，把 `feature1` 分支更新到最新的 `master` 分支；  
+- 最后，把上面保存的 `patch` 文件应用到 `feature1` 分支上；
 
+```shell
+git rebase <branch-name>     # 把当前分支变基到指定分支下
+git -i rebase <branch-name>  # 交互模式下进行操作
+```
 
+### git merge
 
+```shell
+git merge <branch-name>     # 把当前分支和指定分支合并
+```
+## 状态查看指令
+### git  log
 
+```shell
+git log                       # 显示当前分支的历史纪录
+git log --stat                # 显示当前分支的历史记录，包括发生变动的文件
+git log -S <keyword>          # 更具关键词搜索
+```
+
+### git diff
+
+```shell
+git diff                      # 显示暂存区和工作区的差异
+git diff --cached <file>      # 显示暂存区和上一个commit的差异
+git diff HEAD                 # 显示工作区和HEAD指向的commit之间的差异
+```
+
+### git status
+
+```shell
+git status                   # 显示有变更的文件
+```

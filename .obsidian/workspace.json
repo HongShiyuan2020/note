@@ -13,12 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务.md",
+                "file": "标记语言/KaTex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务"
+              "title": "KaTex"
+            }
+          },
+          {
+            "id": "e7c1bd44f4d5b05c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "命令操作/Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "dbef28b7466bb625",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "410ff6274ffa2298",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "命令操作/Git.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
             }
           }
         ]
@@ -53,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#编程语言",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学/aa.md",
+                "file": "编程语言/C/001.关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "aa 的出链列表"
+              "title": "001.关键字 的出链列表"
             }
           },
           {
@@ -142,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "命令操作/git.md",
+                "file": "编程语言/C/001.关键字.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "git 的大纲"
+              "title": "001.关键字 的大纲"
             }
           },
           {
@@ -179,17 +214,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5d748f1f5accaf0",
+  "active": "410ff6274ffa2298",
   "lastOpenFiles": [
-    "生词本.md",
-    "任务.md",
-    "密码.md",
+    "编程语言/C/001.关键字.md",
+    "编程语言/C/000.Hello World.md",
+    "标记语言/Mermaid.md",
+    "标记语言/KaTex.md",
+    "标记语言",
+    "命令操作/Git.md",
+    "命令操作/curl.md",
+    "命令操作/conda.md",
     "人工智能/机器学习/逻辑回归.md",
+    "未命名.canvas",
+    "2025-03-06.md",
+    "任务.md",
+    "生词本.md",
+    "密码.md",
     "人工智能/机器学习",
     "人工智能",
     "算法",
     "哲学/视差之见.md",
-    "2025-03-06.md",
     "哲学/Hello World.md",
     "研究生/VQA.md",
     "研究生/Video-of-Thought Step-by-Step Video Reasoning from Perception to Cognition.md",
@@ -203,13 +247,6 @@
     "研究生/CogVLM Visual Expert for Pretrained Language Models.md",
     "研究生/A SURVEY OF RESOURCE-EFFICIENT LLM AND MULTIMODAL FOUNDATION MODELS.md",
     "研究生/由JSON绘制电路逻辑图.md",
-    "研究生/英语翻译.md",
-    "研究生/小组服务器信息.md",
-    "研究生/条件随机场（CRF）.md",
-    "研究生/算法设计.md",
-    "研究生/视觉定位（Visual Grounding）.md",
-    "研究生/竞赛项目.md",
-    "研究生/核方法.md",
     "命令操作/attachments/Pasted image 20250306211936.png",
     "命令操作/attachments",
     "attachments/Pasted image 20240611095514.png",
@@ -225,8 +262,6 @@
     "attachments/Pasted image 20240611084218.png",
     "数学",
     "编程语言/PHP",
-    "编程语言/C Sharp",
-    "编程语言/Kotlin",
-    "未命名.canvas"
+    "编程语言/C Sharp"
   ]
 }

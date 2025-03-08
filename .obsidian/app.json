@@ -8,5 +8,7 @@
   },
   "attachmentFolderPath": "./attachments",
   "newFileLocation": "current",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "showLineNumber": false,
+  "readableLineLength": true
 }

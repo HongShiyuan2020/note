@@ -41,4 +41,3 @@ x = \begin{cases}
 \end{cases}
 $$
 
-
