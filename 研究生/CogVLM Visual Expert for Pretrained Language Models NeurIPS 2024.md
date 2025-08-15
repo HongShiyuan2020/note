@@ -31,13 +31,13 @@ $$
 Attention(X, W_I, W_T)=softmax(\frac{Tril(QK^T)}{\sqrt{D}})V
 $$
 $$
-Q = concat(XIW_I^Q, X_TW_T^Q)
+Q = concat(X_IW_I^Q, X_TW_T^Q)
 $$
 $$
-K = concat(XIW_I^K, X_TW_T^K) 
+K = concat(X_IW_I^K, X_TW_T^K) 
 $$
 $$
-V = concat(XIW_I^V, X_TW_T^V)
+V = concat(X_IW_I^V, X_TW_T^V)
 $$
 $$
 FFN(X)=concat(FFN_I(X_I), FFN_T(X_T))

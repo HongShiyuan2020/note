@@ -62,23 +62,28 @@ journey
 
 ```mermaid
     gitGraph
-       commit
-       commit
-       branch develop
-       commit
-       commit
-       commit
-       checkout main
-       commit
-       commit
-       branch hello
-       commit
-       commit
-       checkout main
-       commit
-       checkout develop
-       commit
-       
+		commit
+		commit
+		commit 
+		branch a
+		commit
+		checkout main
+		branch b
+		commit
+		commit 
+		commit
+		checkout a
+		commit 
+		commit 
+		merge b
+		commit
+		commit
+		checkout b
+		commit
+		checkout main
+		merge a
+		checkout a
+		commit
 ```
 
 ```mermaid
