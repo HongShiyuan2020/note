@@ -1,1 +1,5 @@
-{}
+{
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./附件"
+}

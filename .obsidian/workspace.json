@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0aacdcdbae6f23",
+        "id": "0317387914d73644",
         "type": "tabs",
         "children": [
           {
-            "id": "be560f6039c9d782",
+            "id": "e3f433c89febdf39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/日语/003.生词 - Part 03.md",
+                "file": "密码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "003.生词 - Part 03"
+              "title": "密码"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#编程语言",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.500732421875,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fc2bd85190c25aa3",
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学物理/数值分析.md",
+                "file": "研究生/会议/2025.10.14 - 15.00 208教室.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数值分析 的大纲"
+              "title": "2025.10.14 - 15.00 208教室 的大纲"
             }
           },
           {
@@ -167,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 475.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,53 +180,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be560f6039c9d782",
+  "active": "eb464dfa2a007a8d",
   "lastOpenFiles": [
-    "语言/日语/形容词.md",
-    "语言/日语/助词.md",
-    "语言/日语/003.生词 - Part 03.md",
-    "语言/日语/动词.md",
-    "语言/日语/002.生词 - Part 02.md",
+    "任务.md",
+    "逻辑回归.md",
+    "密码.md",
+    "Days/未命名.md",
+    "Pasted image 20251014130249.png",
+    "Pasted image 20251014130143.png",
     "Pasted image 20250822120503.png",
-    "未命名 1.base",
-    "未命名.base",
-    "attachments/Pasted image 20240628212549.png",
+    "Pasted image 20251014131028.png",
+    "Pasted image 20251014130712.png",
+    "Pasted image 20251014130440.png",
+    "研究生/会议/2025.05.30.md",
+    "研究生/会议/2025.06.13.md",
+    "研究生/会议/2025.10.13 - 14.04 208教室.md",
+    "研究生/会议/2025.11.04 - 14.00 208.md",
     "研究生/”流形分布“.md",
-    "研究生/VG/研究现状/定义.md",
-    "研究生/VG/研究现状/2025-08-22 大模型相关VG.md",
-    "研究生/VG/VLSANet&VLTVG.md",
-    "研究生/VG/研究现状",
-    "语言/日语/001.生词 - Part 01.md",
-    "数学物理/微分几何与广义相对论/001.拓扑空间.md",
-    "数学物理/微分几何与广义相对论/006.李导数.md",
-    "数学物理/微分几何与广义相对论/005.黎曼内禀曲率张量.md",
-    "数学物理/微分几何与广义相对论/004.导数算符.md",
-    "数学物理/微分几何与广义相对论/003.张量场.md",
-    "数学物理/微分几何与广义相对论/002.流形.md",
-    "数学物理/微分几何与广义相对论/未命名",
-    "数学物理/微分几何与广义相对论",
-    "封装格式/JPG.md",
-    "命令操作/Git.md",
-    "命令操作/curl.md",
-    "命令操作/conda.md",
-    "数学物理/概率论.md",
-    "编程语言/C/000.Hello World.md",
-    "编程语言/C/001.关键字.md",
-    "数学物理/KaTex.md",
-    "数学物理/数值分析.md",
-    "语言/日语",
-    "语言",
-    "封装格式/封装技术",
-    "数学物理/代数/attachments/Pasted image 20250723222434.png",
-    "数学物理/代数/attachments",
-    "数学物理/代数",
-    "数学物理/attachments/Pasted image 20250622231837.png",
-    "数学物理/attachments/Pasted image 20250622231829.png",
-    "数学物理/attachments/Pasted image 20250622231821.png",
-    "数学物理/attachments/Pasted image 20250622204348.png",
-    "数学物理/attachments/Pasted image 20250622202459.png",
-    "数学物理/attachments/Pasted image 20250622202442.png",
-    "数学物理/attachments/Pasted image 20250622200027.png",
+    "研究生/电路图相关.md",
+    "研究生/电路VG问题.md",
+    "研究生/分割算法.md",
+    "研究生/跟踪算法.md",
+    "研究生/核方法.md",
+    "研究生/竞赛项目.md",
+    "研究生/黎曼几何与深度学习.md",
+    "研究生/未命名.md",
+    "研究生/小组服务器信息.md",
+    "研究生/英语翻译.md",
+    "研究生/Learning Transferable Visual Models From Natural Language Supervision.md",
+    "研究生/Instruction.md",
+    "研究生/Let’s Think Outside the Box Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation （CVPR 2024）.md",
+    "研究生/Manga_tools.md",
+    "研究生/Segment Anything.md",
+    "研究生/Transformers.md",
+    "研究生/Video-of-Thought Step-by-Step Video Reasoning from Perception to Cognition.md",
+    "Days/未命名.base",
+    "Days",
+    "研究生/未命名",
+    "研究生/会议/未命名.base",
+    "研究生/会议/未命名 1.base",
+    "attachments/out1-007676.jpg",
+    "attachments/out1-005526.jpg",
+    "研究生/会议/题库/附件/截屏2025-10-28 15.26.06.png",
+    "研究生/会议/题库/附件/截屏2025-10-28 15.26.45.png",
+    "研究生/会议/题库/附件",
+    "研究生/会议/题库",
+    "研究生/VG/未命名.base",
+    "研究生/VG/未命名 1.base",
+    "未命名.base",
     "未命名.canvas"
   ]
 }
