@@ -1,5 +1,11 @@
 {
   "promptDelete": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./附件"
+  "attachmentFolderPath": "./附件",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "theme": "system",
-  "translucency": false,
+  "translucency": true,
   "baseFontSize": 15,
-  "cssTheme": "Everforest"
+  "cssTheme": "Minimal"
 }
